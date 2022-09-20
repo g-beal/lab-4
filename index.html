@@ -5,42 +5,55 @@
   <title> Lab 4 </title>  
 </head>
 <body>
-  <form method="POST" autocomplete="on" action=!!!!!>
+  <form method="POST" autocomplete="on" action=http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php>
   <fieldset>  
     <legend>My Info</legend>
-    <label>First Name: <input type="text" name="first_name_field"></label>
-    <label>Last Name: <input type="text" name="last_name_field"></label>
-    <label>Phone number: <input type="text" name="phone_field"></label>
-    <label>Email: <input type="text" name="email_field"></label>
+    <div>
+      <label>First Name: <input type="text" name="first_name_field"></label>
+    </div>
+    <div>
+      <label>Last Name: <input type="text" name="last_name_field"></label>
+    </div>
+    <div>  
+      <label>Phone number: <input type="text" name="phone_field"></label>
+    </div>
+    <div>
+      <label>Email: <input type="text" name="email_field"></label>
+    </div>
         
     <p>Gender: </p>
     <label>Male <input type="radio" name="gender_field" value=male></label>
     <label>Female <input type="radio" name="gender_field" value=female></label>
-      
-    <label>Age: <select name="age_field"></label>
-       <option value="under 18" selected>under 18</option>
-       <option value="18 - 24">18 - 24</option>
-       <option value="25 - 34">25 - 34</option>
-       <option value="35 - 44">35 - 44</option>
-       <option value="45 - 54">45 - 54</option>
-       <option value="55 - 64">55 - 64</option>
-       <option value="65 and over">65 and over</option>
-    </select>
+    
+    <div>
+      <label>Age: <select name="age_field"></label>
+         <option value="under 18" selected>under 18</option>
+         <option value="18 - 24">18 - 24</option>
+         <option value="25 - 34">25 - 34</option>
+         <option value="35 - 44">35 - 44</option>
+         <option value="45 - 54">45 - 54</option>
+         <option value="55 - 64">55 - 64</option>
+         <option value="65 and over">65 and over</option>
+      </select>
+    </div>
   </fieldset>
     
   <fieldset>  
-    <legend>My Avaliability</legend>
-    <label>Sunday <input type="checkbox" name="avaliable_field[]" value="Sunday"></label>
-    <label>Monday <input type="checkbox" name="avaliable_field[]" value="Monday"></label>
-    <label>Tuesday <input type="checkbox" name="avaliable_field[]" value="Tuesday"></label>
-    <label>Wednesday <input type="checkbox" name="avaliable_field[]" value="Wednesday"></label>
-    <label>Thursday <input type="checkbox" name="avaliable_field[]" value="Thursday"></label>
-    <label>Friday <input type="checkbox" name="avaliable_field[]" value="Friday"></label>
-    <label>Saturday <input type="checkbox" name="avaliable_field[]" value="Saturday"></label>
+    <div>
+      <legend>My Avaliability</legend>
+      <label>Sunday <input type="checkbox" name="avaliable_field[]" value="Sunday"></label>
+      <label>Monday <input type="checkbox" name="avaliable_field[]" value="Monday"></label>
+      <label>Tuesday <input type="checkbox" name="avaliable_field[]" value="Tuesday"></label>
+      <label>Wednesday <input type="checkbox" name="avaliable_field[]" value="Wednesday"></label>
+      <label>Thursday <input type="checkbox" name="avaliable_field[]" value="Thursday"></label>
+      <label>Friday <input type="checkbox" name="avaliable_field[]" value="Friday"></label>
+      <label>Saturday <input type="checkbox" name="avaliable_field[]" value="Saturday"></label>
+    </div>
     
     <label>Any Comments? <textarea cols="30" rows="10" name="comments_field"></textarea></label>
   </fieldset>
 
-  <input type="submit" value"Send Me">
+  <input type="submit" value="Send Me">
+  <input type="hidden" name="hidden_field" value="gbeal2">
 </body>
 </html>
